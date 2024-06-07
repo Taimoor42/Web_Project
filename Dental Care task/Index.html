@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dental Care Task</title>
+    <link rel="stylesheet" href="Style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+.blog container {
+  width: 1000px;
+  height: 625px;
+  margin: 50px auto;
+  /* background-color: aqua; */
+}
+
+.belog {
+  color: lightcoral;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.news {
+  color: rgb(85, 85, 221);
+  font-size: 36px;
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.more {
+  width: auto;
+  background-color: rgb(85, 85, 221);
+  color: white;
+  margin-left: 430px;
+  padding: 10px 25px;
+  border-radius: 20px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.pic-container {
+  display: flex;
+  margin-top: 50px;
+
+
+}
+
+.child-pic {
+  position: relative;
+}
+
+.child-pic img {
+  opacity: 0.8;
+  border-radius: 25px;
+  margin-top: 7px;
+  margin-left: 8px;
+  width: 490px;
+}
+
+.img1 img {
+  width: 500px;
+}
+
+.mid {
+  position: absolute;
+  color: (178, 178, 240);
+  top: 91px;
+  left: 27px;
+  color: rgb(166, 166, 223);
+  font-size: 15px;
+
+}
+
+.highlights {
+  position: absolute;
+  top: 120px;
+  left: 27px;
+  color: rgb(228, 225, 225);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+.read {
+  position: absolute;
+  top: 187px;
+  left: 27px;
+  color: rgb(166, 166, 223);
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+
+footer {
+  margin-top: 80px;
+  background-color: rgb(224, 254, 254);
+  height: 570px;
+}
+
+.last {
+  width: 1000px;
+  margin: auto;
+  /* background-color: rebeccapurple; */
+  padding: 60px;
+}
+
+.navabar {
+  margin-top: 20px;
+  width: 295px;
+  height: 50px;
+  background-color: white;
+  color: rgb(133, 205, 249);
+  border-radius: 36px;
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+
+}
+
+.bar {
+  width: 1000px;
+  /* background-color: rebeccapurple; */
+  display: flex;
+
+
+}
+
+
+.dot {
+  width: auto;
+  height: auto;
+  margin-left: 110px;
+  font-size: 18px;
+  border: 2px solid rgb(114, 114, 225);
+  color: rgb(123, 123, 206);
+  border-radius: 45%;
+  padding: 8px 15px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.last2 {
+  display: flex;
+  height: 120px;
+  border-bottom: 2px solid rgb(133, 205, 249);
+  ;
+}
+
+.logos {
+  display: flex;
+  margin-left: 420px;
+
+}
+
+.logos img {
+  width: 40px;
+  height: 40px;
+  padding: 0px 10px;
+
+}
+
+.working {
+  margin-top: 50px;
+  /* background-color: red; */
+  width: 320px;
+  margin-right: 30px;
+
+
+}
+
+.hours {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+}
+
+.shedule {
+  width: auto;
+  margin-top: 40px;
+  border-bottom: 2px solid rgb(133, 205, 249);
+  height: 25px;
+  color: rgb(133, 205, 249);
+
+}
+
+.shedule span {
+  margin-left: 170px;
+}
+
+.copy {
+  margin-top: 60px;
+
+}
+
+.about {
+  width: 700px;
+  /* background-color: rebeccapurple; */
+  margin-top: 50px;
+  display: flex;
+  border-left: 2px solid rgb(133, 205, 249) ;
+}
+
+.names {
+  display: flex;
+}
+
+.first {
+  margin: 0px 40px;
+}
+
+.space {
+  padding: 13px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+<section class="main-section main-header">
+    <header>
+        <div class="header-section">
+            <div class="container-section top-section">
+                <div class="logo-section">
+                    <img src="/images/logo.png" alt="Logo" />
+                </div>
+                <div class="header-right-section">
+                    <div class="contact-info-section body-font-section">
+                        <p><i class="bx bx-location-plus"></i>St. Sanguin Number 40</p>
+                        <p><i class="bx bx-phone"></i>+1234 - 4567 - 890</p>
+                    </div>
+                    <button class="appointment-btn-section btn-section font-body-section">Appointment</button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container-section navbar-section">
+                <div class="nav-links-section">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li>
+                            <a href="#">Pages<i class="bx bx-chevron-down"></i></a>
+                        </li>
+                        <li>
+                            <a href="#">Blog<i class="bx bx-chevron-down"></i></a>
+                        </li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="nav-search-section">
+                    <input type="search" placeholder="Search in Here" />
+                    <div class="icon-section">
+                        <i class="bx bx-search"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN PART -->
+    <div class="main-section">
+        <div class="container-section main-content-section">
+            <div class="main-text-section">
+                <h3 class="subheading-font-section">welcome to confident</h3>
+                <h1 class="heading-font-section">
+                    high quality &
+                    <span class="heading-font-highlight-section">painless</span> dentistry
+                </h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim
+                    ad minim veniam, quis nostrud.
+                </p>
+                <div class="main-buttons-section">
+                    <button class="contact-button btn-section">Contact Us</button>
+                    <button class="video-button-section">
+                        <img src="/images/videobutton.png" alt="Video Button" />Watch Video
+                        Profile
+                    </button>
+                </div>
+            </div>
+            <div class="main-image-section">
+                <img src="/images/main.png" alt="Main" />
+            </div>
+        </div>
+    </div>
+</section>
+<!-- PARTNERS SECTION START -->
+<section class="partners-section">
+    <div class="container-section partner-content-section">
+        <h3 class="subheading-font-section">our clinic partners</h3>
+        <div class="partners-logos-section">
+            <img src="/images/part1.png" alt="Partner 1" />
+            <img src="/images/part2.png" alt="Partner 2" />
+            <img src="/images/part3.png" alt="Partner 3" />
+            <img src="/images/part4.png" alt="Partner 4" />
+            <img src="/images/part5.png" alt="Partner 5" />
+        </div>
+    </div>
+</section>
+<!-- PARTNERS SECTION ENDS -->
+<!-- ABOUT SECTION START -->
+<section class="about-section">
+    <div class="container-section about-content-section">
+        <div class="about-image-section">
+            <img src="/images/About.png" alt="About" />
+        </div>
+        <div class="about-text-section">
+            <h3 class="subheading-font-section">about us</h3>
+            <h2 class="heading-font-section">
+                your <span>trusted partner</span> for <br />
+                dental health
+            </h2>
+            <p>
+                Our team is dedicated to providing the best possible dental care for
+                you. <br />
+                A healthy smile is a happy smile – we help you achieve both!
+            </p>
+            <ul>
+                <li>
+                    <img src="/images/bluetick.png" alt="" />Modern
+                    Equipment
+                </li>
+                <li>
+                    <img src="/images/bluetick.png" alt="" />Comfortable
+                    Clinic
+                </li>
+                <li>
+                    <img src="/images/bluetick.png" alt="" />Easy Online
+                    Appointment
+                </li>
+                <li>
+                    <img src="/images/bluetick.png" alt="" />Always
+                    Monitored
+                </li>
+            </ul>
+            <a href="#" class="read-more-link-section"
+                >Read More<i class="bx bx-right-arrow-alt"></i
+            ></a>
+        </div>
+    </div>
+</section>
+<!-- TREATMENT SECTION -->
+<section class="treatment-section">
+    <div class="container-section treatment-content-section">
+        <div class="treatment-header-section">
+            <h3 class="subheading-font-section">What We Provide</h3>
+            <h2 class="heading-font-section">
+                What <span>The Treatments</span> <br />
+                Do We Offer?
+            </h2>
+        </div>
+        <div class="treatment-cards-section">
+            <div class="card-section">
+                <img src="/images/treatIcon1.png" alt="Lawn Fertilization" />
+                <h4>Lawn Fertilization</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore.
+                </p>
+                <a href="#" class="read-more-link-section"
+                    >Learn More<i class="bx bx-right-arrow-alt"></i
+                ></a>
+            </div>
+            <div class="card-section">
+                <img src="/images/treatIcon2.png" alt="Dental Bridge" />
+                <h4>Dental Bridge</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore.
+                </p>
+                <a href="#" class="read-more-link-section"
+                    >Learn More<i class="bx bx-right-arrow-alt"></i
+                ></a>
+            </div>
+            <div class="card-section">
+                <img src="/images/treatIcon3.png" alt="General Dentistry" />
+                <h4>General Dentistry</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <a href="#" class="read-more-link-section"
+                    >Learn More<i class="bx bx-right-arrow-alt"></i
+                ></a>
+            </div>
+            <div class="card-section">
+                <img src="/images/treatIcon4.png" alt="Cavity Inspection" />
+                <h4>Cavity Inspection</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <a href="#" class="read-more-link-section"
+                    >Learn More<i class="bx bx-right-arrow-alt"></i
+                ></a>
+            </div>
+            <div class="card-section">
+                <img src="/images/treatIcon5.png" alt="Live Advisory" />
+                <h4>Live Advisory</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <a href="#" class="read-more-link-section"
+                    >Learn More<i class="bx bx-right-arrow-alt"></i
+                ></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- COUNTER SECTION -->
+<section class="counter-section">
+    <div class="container counter-container">
+        <div class="counter">
+            <div class="number heading-font">74</div>
+            <div class="label subHeading-font">CLINICS</div>
+        </div>
+        <div class="counter">
+            <div class="number heading-font">20</div>
+            <div class="label subHeading-font">COUNTRY</div>
+        </div>
+        <div class="counter">
+            <div class="number heading-font">19</div>
+            <div class="label subHeading-font">YEARS</div>
+        </div>
+        <div class="counter">
+            <div class="number heading-font">40</div>
+            <div class="label subHeading-font">PARTNERS</div>
+        </div>
+    </div>
+</section>
+<br>
+<br>
+<!-- dentist profile -->
+<div class="container dentist">
+    <div>
+        <h2>OUR BEST DENTIST</h2>
+        <h1>Dentist For Specialized And <br> Experienced Dentistry</h1>
+        <div class="card-container" data-aos="fade-right">
+            <div class="card">
+                <img src="/images/Dentistcard1.png" alt="Dr. Marteen Bryant">
+                <h3>Dr. Marteen Bryant</h3>
+                <p>General Dentist</p>
+            </div>
+            <div class="card">
+                <img src="/images/dentistcard2.png" alt="Dr. Julia Barbara">
+                <h3>Dr. Julia Barbara</h3>
+                <p>General Dentist</p>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="/images/Dentistcard3.png" alt="Dr. Natasha Smith">
+                <h3>Dr. Natasha Smith</h3>
+                <p>General Dentist</p>
+            </div>
+        </div>
+    </div>
+</div>
+  <!-- Dental Promotion -->
+
+  <div class="promo-card">
+    <div class="promo-content">
+        <h3>BOOK DENTAL APPOINTMENT</h3>
+        <h2>Get <span>10%-Off</span> Your First Visit</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+        <a href="#" class="promo-button">BOOK NOW</a>
+    </div>
+    <div class="promo-image">
+        <img src="images/About.png" alt="Dentist Promotion">
+    </div>
+</div>
+ <!-- Testimonials -->
+
+ <div class="testimonial-section">
+    <div class="text-left">
+      <h3>TESTIMONIAL</h3>
+     <h1>Enhancing Your Smile & <br> <span>Your Confidence</span></h1>
+    </div>
+     <div class="testimonial-grid">
+         <div class="w-50">
+             <img src="images/testimonial first pic.png" alt="Person 1">
+
+         </div>
+         <div class="w-50">
+             <div class="flexer">
+                 <div class="testimonial-card mt-4">
+                     <div class="testimonial-img">
+                         <img src="/images/Group 9.png" alt="Person 1">
+                     </div>
+                     <div class="testimonial-content">
+                         <div class="rating">⭐⭐⭐⭐⭐</div>
+                         <p>Non libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod</p>
+                         <h4>Ryan Giggs</h4>
+                         <span>Patient</span>
+                     </div>
+                 </div>
+                 <div class="testimonial-card">
+                     <div class="testimonial-img">
+                         <img src="images/Group 38.png"Person 1">
+                     </div>
+                     <div class="testimonial-content">
+                         <div class="rating">⭐⭐⭐⭐⭐</div>
+                         <p>Non libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod</p>
+                         <h4>Ryan Giggs</h4>
+                         <span>Patient</span>
+                     </div>
+                 </div>
+                 <div class="testimonial-card mt-4">
+                     <div class="testimonial-img">
+                         <img src="images/Mask group.png" alt="Person 1">
+                     </div>
+                     <div class="testimonial-content">
+                         <div class="rating">⭐⭐⭐⭐⭐</div>
+                         <p>Non libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod</p>
+                         <h4>Ryan Giggs</h4>
+                         <span>Patient</span>
+                     </div>
+                 </div>
+                 <div class="testimonial-card">
+                     <div class="testimonial-img">
+                         <img src="images/pic4.png" alt="Person 1">
+                     </div>
+                     <div class="testimonial-content">
+                         <div class="rating">⭐⭐⭐⭐⭐</div>
+                         <p>Non libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod</p>
+                         <h4>Ryan Giggs</h4>
+                         <span>Patient</span>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         </div>
+         </div>
+         <div class=" blog container">
+            <div class="belog">
+                OUR BLOG
+            </div>
+            <div class="news">
+                Our Latest Blogs & News
+                <div class="more">
+                    FIND MORE &nbsp; >
+                </div>
+            </div>
+            <div class="pic-container">
+                <div class="img1">
+                    <img src="child.png" alt="">
+                </div>
+                <div class="child-pic">
+                    <div class="img2">
+                        <img src="child2.png" alt="">
+                        <div class="mid">
+                            December 15, 2024
+                        </div>
+                        <div class="highlights">
+                            Hightlight: benefits of routine dental check-ups in <br>
+                            children under 12 years old
+                        </div>
+                        <div class="read">
+                            READ MORE &nbsp; >
+                        </div>
+                    </div>
+                    <img src="child4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="last">
+                <div class="logo">
+                    <img src="logo.png" alt="">
+                </div>
+                <div class="last2">
+                    <div class="bar">
+                        <div class="navabar">
+                            Your Email Here...&nbsp; <div class="dot">></div>
+                        </div>
+                        <div class="logos">
+                            <img src="/images/in.png" alt="">
+                            <img src="/images/fb.png" alt="">
+                            <img src="images/in.png" alt="">
+                            <img src="/images/x.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="names">
+                    <div class="working">
+                        <div class="hours">
+                            Working Hours
+                        </div>
+                        <div class="shedule">
+                            Mon-Fri <span> 9AM-8PM</span>
+                        </div>
+                        <div class="shedule">
+                            Sat -Sun<span>9AM-8PM</span>
+                        </div>
+                        <div class="copy">
+    
+                            &copy; 2024 CONFIDENT ALL Right Reserved
+                        </div>
+                    </div>
+                    <div class="about">
+                        <div class="first">
+                            <div class="space">About</div>
+                            <div class="space">Home</div>
+                            <div class="space">About Us</div>
+                            <div class="space">Services</div>
+                            <div class="space">Pages</div>
+                            <div class="space">Contact</div>
+                        </div>
+                        <div class="first">
+                            <div class="space">Pages</div>
+                            <div class="space">Services</div>
+                            <div class="space">Dentist</div>
+                            <div class="space">Pricing</div>
+                            <div class="space">Contact</div>
+                            <div class="space">404 Page</div>
+                        </div>
+                        <div class="first">
+                            <div class="space">Supoort</div>
+                            <div class="space">Contact us</div>
+                            <div class="space">Booking Online</div>
+                            <div class="space">Social Media</div>
+                        </div>
+                        <div class="first">
+                            <div class="space">Contact us</div>
+                            <div class="space">Social Media</div>
+                            <div class="space">Whatsapp</div>
+                            <div class="space">Email </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+    
+</body>
+</html>
